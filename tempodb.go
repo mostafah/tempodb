@@ -90,7 +90,7 @@ func (c *Client) send(p *point) {
 }
 
 // Finish waits for all the queued data points to be sent. Sending values after
-// finishing will lead to a run-time panic.
+// calling Finish will lead to a run-time panic.
 func (c *Client) Finish(timeout time.Duration) bool {
 	done := make(chan bool)
 	go func() {
