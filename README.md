@@ -1,6 +1,7 @@
 [TempoDB's official Go package](http://github.com/tempodb/tempodb-go) is
 powerful and flexible, but most of the time you just want to send data to it in
-a simple fashion. This package is for that.
+a simple fashion. This package, based on the official package, is for that. [The
+documentation is on GoDoc](http://godoc.org/github.com/mostafah/tempodb).
 
 It has a very simple API: you just call `Send` for sending data. No need for
 getting current time, creating `struct` instances, and checking for errors every
